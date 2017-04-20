@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>Bootstrap Activity 3</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</head>
 </head>
 <body>
 
-	<div> 
+		<div> 
 		<nav class="navbar navbar-default navbar-static-top"> 
-			<div class="container-fluid"> 
+			<div class="container"> 
 			<div class="navbar-header"> 
 				<button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8" aria-expanded="false"> 
 					<span class="sr-only">Toggle navigation</span> 
 						<span class="icon-bar"></span> 
 						<span class="icon-bar"></span> 
 						<span class="icon-bar"></span> 
-				</button> <a href="#" class="navbar-brand">Andrew Sanchez</a> 
+				</button> <a href="index.html" class="navbar-brand">Andrew Sanchez</a> 
 			</div> 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8"> 
 					<ul class="nav navbar-nav navbar-right"> 
@@ -29,6 +32,65 @@
 			</div> 
 		</nav> 
 	</div>
-
+	<div class="container">
+		<div class="row main-section">
+			<div class="col-sm-8">
+				<div class="panel panel-default">
+	  				<div class="panel-body bio">
+						<div class="row">
+						  	<div class="col-sm-12">
+						   		<h1 id="mainHead">Portfolio</h1>
+							</div>
+						</div>
+						<div class="workContain">
+						<div class="row">
+							<div class="col-sm-6">
+								<a href="#"><img class="work" src="assets/images/hangman.jpg"></a>
+								<h3 class="banner">Hangman</h3>
+							</div>
+							<div class="col-sm-6">
+								<a href="#"><img class="work" src="assets/images/d20.jpg"></a>
+								<h3 class="banner">RPG Game</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<a href="#"><img class="work" src="assets/images/trivia.jpg"></a>
+								<h3 class="banner">Trivia Games</h3>
+							</div>
+							<div class="col-sm-6">
+								<a href="#"><img class="work" src="assets/images/rutgers.jpg"></a>
+								<h3 class="banner">Rutgers Info Widget</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<a href="#"><img class="work" src="assets/images/rps.jpg"></a>
+								<h3 class="banner">Rock Paper Scissors</h3>
+							</div>				
+						</div>
+						</div> 
+	 				</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-3" >
+				<div class="panel panel-default sidebar">
+	  				<div class="panel-body connect">
+	   					<h3 id="connectHead">Connect with Me</h3>
+	   						<div class="connections">
+			   					<a href="http://www.github.com/mong04" target="_blank"><img class="connect-img" src="assets/images/github_square_black.png" class="social" alt="GitHub" /></a>
+						        <a href="https://www.linkedin.com/in/andrew-sanchez-a69785a1/" target="_blank"><img class="connect-img" src="assets/images/linkedin_square_color.png" class="social" alt="LinkedIn" /></a>
+						        <a href="http://stackexchange.com/users/10593431/a-sanchez" target="_blank"><img class="connect-img" src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+					        </div>
+	 				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+	    <div class="container">
+	        <p class="text-muted">Copyright &copy; 2017 Andrew Sanchez</p>
+	    </div>
+   	</footer>	
 </body>
 </html>
